@@ -1,0 +1,197 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+
+
+}
+html , body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    /* background-color: brown; */
+
+}
+.left{
+    position: relative;
+    width: 60%;
+    height: 100%;
+    /* background-color:#C41E3A; */
+
+}
+.right{
+    width: 40%;
+    height: 100%;
+    background-color: chocolate;
+    /* background-image: url(https://images.unsplash.com/photo-1610862067133-46b3ef8ec115?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGN1dGUlMjBiYWJ5fGVufDB8fDB8fHww); */
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+h3{
+    font-weight: 700;color:blueviolet;
+    font-size: 40px;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+h3 {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: -30px;
+  }
+  
+h1{
+    font-weight: 1500;
+    font-size: 130px;
+}
+h1 {
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  p{
+    opacity: .8;
+    line-height: 19px;
+    font-size: 14px;
+  }
+  img{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  @media  (max-width: 500px){
+    .main{
+        flex-direction: column;
+    }
+    .left{
+        width: 100%;
+    }
+    .center{
+        margin-top:200px ;
+    }
+    h1{
+        /* margin-top: 500px; */
+    font-size: 80px;
+    }
+    h3{
+        margin-bottom: 1px;
+        font-size: 30px;
+        margin-top: 300px;
+    }
+
+    .right{
+        width: 100%;
+        margin-top: 710px;
+
+    }
+  }
+/* 
+  /* Section- 2 */
+.Hobbies{
+    width: 100%;
+    height: 10%;
+    background-color:burlywood;
+}
+
+
+  .main-2{
+    display: flex;
+
+    background-color: rgb(255, 0, 0);
+    width: 100%;
+    height: 100%;
+  }
+
+  /* LEFTYYYYYYYYYYYYY */
+
+  .lefty{
+    background-color: chartreuse;
+    width: 50%;
+    height: 100%;
+  }
+
+  .lefty-up{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    background-color: cornflowerblue;
+  }
+
+  .lefty-1{
+    width: 50%;
+    height:100% ;
+    background-color: blueviolet;
+  }
+
+  .lefty-2{
+    width:50% ;
+    height: 100%;
+    background-color: darkgoldenrod;
+  }
+
+  .lefty-down{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    background-color: fuchsia;
+  }
+  .lefty-3{
+    width: 50%;
+    height:100% ;
+    background-color: rgb(43, 226, 110);
+  }
+
+  .lefty-4{
+    width:50% ;
+    height: 100%;
+    background-color: purple;
+  }
+
+  /* RIGHTYYYYY */
+
+.righty{
+  display: flex;
+  background-color: dodgerblue;
+  width: 50%;
+  height:100%;
+}
+
+.righty-up{
+  display: flex;
+  width: 100%;
+  height: 50%;
+  background-color: sandybrown;
+}
+
+.righty-1{
+  width: 50%;
+  height: 100%;
+  background-color: blue;
+}
+.righty-2{
+  width: 50%;
+  height: 100%;
+  background-color: rgb(220, 148, 148);
+}
+
+.righty-down{
+  width: 100%;
+  height: 50%;
+  background-color: rgb(184, 11, 66);
+}
+ */
