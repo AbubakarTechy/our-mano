@@ -1,2 +1,1 @@
-,
-# our-mano...
+# our-mano.
